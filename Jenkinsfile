@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "python-devops-app"
-        DOCKER_HUB = "your-dockerhub-username"
+        DOCKER_HUB = "reshma0209"
         BUILD_TAG = "${BUILD_NUMBER}"
     }
 
